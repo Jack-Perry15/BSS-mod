@@ -27,7 +27,7 @@ window.playerGear={
                 cylinder(x,y+1.25*0.5,z,0.16,0.15,10,0.3,0.3,0.3,90,0,0)
             },
             desc:'When planted in the ground, causes nearby flowers to regrow faster!<br><br>Count: 1<br>Diameter: 10<br>Power: 20<br>Rate: 4s<br><br>Press "R" to place a sprinkler.',
-            cost:['1111111 honey'],
+            cost:['1 honey'],
         },
 
         silverSoakers:{
@@ -47,7 +47,7 @@ window.playerGear={
                 cylinder(x,y+1.25*0.5,z,0.16,0.15,10,0.7,0.7,0.7,90,0,0)
             },
             desc:'Two sprinklers which fire faster!<br><br>Count: 2<br>Diameter: 10<br>Power: 20<br>Rate: 3.5s<br><br>Press "R" to place a sprinkler.',
-            cost:['22222222 honey'],
+            cost:['2 honey'],
         },
 
         goldenGushers:{
@@ -67,7 +67,7 @@ window.playerGear={
                 cylinder(x,y+1.25*0.5,z,0.16,0.15,10,0.9,0.9,0.2,90,0,0)
             },
             desc:'Three gorgeous sprinklers with enormous range.<br><br>Count: 3<br>Diameter: 11<br>Power: 25<br>Rate: 3.5s<br><br>Press "R" to place a sprinkler.',
-            cost:['333333333 honey'],
+            cost:['3 honey'],
         },
 
         diamondDiluters:{
@@ -87,7 +87,7 @@ window.playerGear={
                 cylinder(x,y+1.25*0.5,z,0.16,0.15,10,0,0.9,0.9,90,0,0)
             },
             desc:'Four enhanced sprinklers made of durable artificial diamond!<br><br>Count: 4<br>Diameter: 11<br>Power: 25<br>Rate: 3s<br><br>Press "R" to place a sprinkler.',
-            cost:['4444444444 honey'],
+            cost:['4 honey'],
         },
         
         superSaturator:{
@@ -117,7 +117,7 @@ window.playerGear={
                 cylinder(x,y+0.7,z,0.1,0.5,10,0.2,10,10,0,0,0,0.1,false)
             },
             desc:'The ultimate sprinkler. Nobody knows how it works or where it came from.<br><br>Count: 1<br>Diameter: 15<br>Power: 50<br>Rate: 1s<br><br>Press "R" to place a sprinkler.',
-            cost:['55555555555 honey'],
+            cost:['5 honey'],
         }
     },
     
@@ -483,7 +483,7 @@ window.playerGear={
                 stats.gliderFall=-5
             },
             desc:'Floats much faster than the Parachute, allowing you to fly through the sky!<br><br>Press jump while in the air to open. ',
-            cost:['5000000 honey'],
+            cost:['5 honey'],
         },
         
     },
@@ -677,7 +677,7 @@ window.playerGear={
 
             },
             desc:'Ignite your mind to enhance your red bees.<br><br>x1.75 capacity<br>x1.6 red pollen<br>+20% instant red conversion<br>+50% instant flame conversion<br>+1 bee attack<br>+1 red bee attack<br>x1.15 bee ability rate<br>+35% defense<br>+Passive: Ignite',
-            cost:['50000000 honey','30 redExtract','15 enzymes','5 glue','300 strawberry'],
+            cost:['5 honey'],
         },
 
         bubbleMask:{
@@ -818,7 +818,7 @@ window.playerGear={
                 player.addEffect('ignitePassive')
             },
             desc:'Embrace hate to take on the form of a Demon Bee. Become both extremely unpleasant and powerful.<br><br>x2 capacity<br>x1.75 red field capacity<br>x1.75 red pollen<br>+50% instant flame conversion<br>x2 flame pollen<br>x1.25 bee attack<br>+35% defense<br>+20% bee ability rate<br>+Passive: X Flame<br>+Passive: Ignite',
-            cost:['5000000000 honey','350 stinger','250 redExtract','100 enzymes','75 glue'],
+            cost:['5 honey'],
         },
     },
     
